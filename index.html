@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مركز صيانة يونيون اير مدينة نصر | عمارات ميلسا - خدمة منزلية متخصصة</title>
-  <meta name="description" content="مركز خدمة وصيانة فني مستقل متخصص في إصلاح أجهزة يونيون اير في مدينة نصر وعمارات ميلسا. صيانة فورية بالمنزل لغسالات، ثلاجات، وتكييفات بقطع غيار أصلية وضمان مركز الصيانة. اتصل: 01130154926.">
-  <meta name="keywords" content="صيانة يونيون اير, صيانة يونيون اير مدينة نصر, صيانة يونيون اير عمارات ميلسا, تصليح غسالات يونيون اير, صيانة ثلاجات يونيون اير, صيانة تكييفات يونيون اير, رقم صيانة يونيون اير">
+  <title>مركز صيانة يونيون اير مدينة نصر | خدمة دعم وإصلاح منزلي فوري</title>
+  <meta name="description" content="مركز خدمة وصيانة فني مستقل متخصص في إصلاح أجهزة يونيون اير في مدينة نصر والقاهرة. صيانة فورية بالمنزل لغسالات، ثلاجات، وتكييفات بقطع غيار أصلية وضمان مركز الصيانة. اتصل: 01130154926.">
+  <meta name="keywords" content="صيانة يونيون اير, صيانة يونيون اير مدينة نصر, تصليح غسالات يونيون اير, صيانة ثلاجات يونيون اير, صيانة تكييفات يونيون اير, رقم صيانة يونيون اير مدينة نصر">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph / Meta -->
   <meta property="og:locale" content="ar_EG">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="مركز صيانة يونيون اير مدينة نصر | عمارات ميلسا">
+  <meta property="og:title" content="مركز صيانة يونيون اير مدينة نصر | خدمة صيانة منزلية فورية">
   <meta property="og:description" content="خدمة صيانة وإصلاح فني منزلي فوري لكافة أجهزة يونيون اير بضمان مركز الصيانة. اتصل الآن على 01130154926.">
   
   <!-- JSON-LD Full Local Business & Schema Graph -->
@@ -25,7 +25,7 @@
         "name": "Unionaire center - مركز صيانة يونيون اير",
         "alternateName": [
           "مركز صيانة يونيون اير مدينة نصر",
-          "خدمة صيانة يونيون اير عمارات ميلسا",
+          "خدمة صيانة يونيون اير بالقاهرة",
           "Unionaire Maintenance Center Nasr City"
         ],
         "telephone": "01130154926",
@@ -35,7 +35,7 @@
         "hasMap": "https://maps.google.com/?cid=4709893922684828509",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "38GW+6J8, Omarat Milsa",
+          "streetAddress": "38GW+6J8, Nasr City",
           "addressLocality": "Nasr City",
           "addressRegion": "Cairo Governorate",
           "postalCode": "11765",
@@ -55,9 +55,9 @@
           }
         ],
         "areaServed": [
-          {"@type": "AdministrativeArea", "name": "عمارات ميلسا"},
           {"@type": "AdministrativeArea", "name": "مدينة نصر"},
           {"@type": "AdministrativeArea", "name": "مصر الجديدة"},
+          {"@type": "AdministrativeArea", "name": "التجمع الخامس"},
           {"@type": "AdministrativeArea", "name": "القاهرة"}
         ],
         "sameAs": [
@@ -102,7 +102,7 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "هل تتم صيانة أجهزة يونيون اير داخل المنزل في عمارات ميلسا؟",
+            "name": "هل تتم صيانة أجهزة يونيون اير داخل المنزل في مدينة نصر؟",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "نعم، كافة أعمال الفحص والصيانة لغسالات، ثلاجات، وتكييفات يونيون اير تتم بالكامل داخل المنزل دون نقل الجهاز، عبر فنيين متخصصين."
@@ -135,7 +135,9 @@
       --primary: #0284c7;
       --primary-dark: #0369a1;
       --secondary: #0f172a;
+      --form-bg: #0f172a;
       --accent: #f59e0b;
+      --accent-hover: #d97706;
       --success: #10b981;
       --bg-light: #f8fafc;
       --text-main: #334155;
@@ -348,91 +350,110 @@
       margin-bottom: 0.3rem;
     }
 
-    /* High-Conversion Form Section */
+    /* ========================================================
+       High-Contrast Standout Booking Form (Dark Theme Design)
+       ======================================================== */
     .form-wrapper {
-      background: #ffffff;
-      border-radius: 16px;
-      border: 2px solid #e2e8f0;
-      box-shadow: 0 12px 35px -5px rgba(0,0,0,0.08);
-      padding: 2.5rem;
-      margin: 4rem 0;
+      background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+      border-radius: 20px;
+      border: 2px solid #38bdf8;
+      box-shadow: 0 20px 40px -10px rgba(15, 23, 42, 0.4), 0 0 25px rgba(56, 189, 248, 0.15);
+      padding: 3rem 2.5rem;
+      margin: 4.5rem 0;
       position: relative;
+      color: #ffffff;
+    }
+    .form-wrapper .section-title h2 {
+      color: #ffffff;
+    }
+    .form-wrapper .section-title p {
+      color: #94a3b8;
     }
     .form-header-badge {
       display: inline-block;
-      background: #e0f2fe;
-      color: var(--primary-dark);
-      padding: 0.3rem 1rem;
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 0.35rem 1.2rem;
       border-radius: 50px;
-      font-size: 0.85rem;
+      font-size: 0.88rem;
       font-weight: 700;
       margin-bottom: 0.8rem;
     }
     .booking-form {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1.3rem;
+      gap: 1.4rem;
       margin-top: 1.5rem;
     }
     @media (max-width: 768px) {
       .booking-form {
         grid-template-columns: 1fr;
       }
+      .form-wrapper {
+        padding: 2rem 1.2rem;
+      }
     }
     .form-group {
       display: flex;
       flex-direction: column;
-      gap: 0.4rem;
+      gap: 0.45rem;
     }
     .form-group.full-width {
       grid-column: 1 / -1;
     }
     .form-group label {
-      font-size: 0.92rem;
+      font-size: 0.95rem;
       font-weight: 700;
-      color: var(--secondary);
+      color: #f1f5f9;
     }
     .form-group input,
     .form-group select,
     .form-group textarea {
-      padding: 0.9rem 1rem;
-      border: 1.5px solid var(--border-color);
-      border-radius: 8px;
-      font-size: 0.95rem;
+      padding: 0.95rem 1.1rem;
+      border: 1.5px solid #334155;
+      border-radius: 10px;
+      font-size: 1rem;
       outline: none;
-      transition: border-color 0.2s, box-shadow 0.2s;
-      background: #fdfdfd;
+      transition: all 0.25s ease;
+      background: #ffffff;
+      color: #0f172a;
+      font-weight: 500;
+    }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: #94a3b8;
     }
     .form-group input:focus,
     .form-group select:focus,
     .form-group textarea:focus {
-      border-color: var(--primary);
-      box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.15);
-      background: #fff;
+      border-color: #38bdf8;
+      box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.25);
     }
     .submit-btn {
       grid-column: 1 / -1;
-      background: var(--primary);
+      background: linear-gradient(135deg, var(--accent) 0%, #ea580c 100%);
       color: #ffffff;
       border: none;
-      padding: 1.1rem 2rem;
-      border-radius: 8px;
-      font-size: 1.15rem;
+      padding: 1.2rem 2rem;
+      border-radius: 10px;
+      font-size: 1.25rem;
       font-weight: 800;
       cursor: pointer;
-      transition: background 0.2s, transform 0.2s;
-      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+      transition: all 0.25s ease;
+      box-shadow: 0 6px 20px rgba(234, 88, 12, 0.4);
       margin-top: 0.5rem;
     }
     .submit-btn:hover {
-      background: var(--primary-dark);
+      background: linear-gradient(135deg, #f59e0b 0%, #c2410c 100%);
       transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(234, 88, 12, 0.55);
     }
     .form-footer-note {
       text-align: center;
-      font-size: 0.85rem;
-      color: #64748b;
-      margin-top: 1rem;
+      font-size: 0.88rem;
+      color: #94a3b8;
+      margin-top: 1.2rem;
     }
 
     /* Working Steps */
@@ -570,36 +591,29 @@
       font-weight: 600;
     }
 
-    /* Floating Call & WhatsApp CTA */
-    .floating-actions {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 0.7rem;
-      z-index: 999;
-    }
+    /* Floating Call Only (No WhatsApp) */
     .floating-cta {
-      background: var(--success);
+      position: fixed;
+      bottom: 22px;
+      left: 22px;
+      background: var(--primary);
       color: white;
       text-decoration: none;
-      padding: 0.85rem 1.4rem;
+      padding: 0.95rem 1.6rem;
       border-radius: 50px;
       font-weight: 800;
-      font-size: 1rem;
-      box-shadow: 0 4px 18px rgba(16, 185, 129, 0.4);
+      font-size: 1.05rem;
+      box-shadow: 0 6px 22px rgba(2, 132, 199, 0.45);
       display: flex;
       align-items: center;
-      gap: 0.5rem;
-      transition: transform 0.2s;
-    }
-    .floating-cta.call-btn {
-      background: var(--primary);
-      box-shadow: 0 4px 18px rgba(2, 132, 199, 0.4);
+      gap: 0.6rem;
+      z-index: 999;
+      transition: transform 0.2s, box-shadow 0.2s;
     }
     .floating-cta:hover {
-      transform: scale(1.04);
+      background: var(--primary-dark);
+      transform: scale(1.05);
+      box-shadow: 0 8px 25px rgba(2, 132, 199, 0.6);
     }
 
     footer {
@@ -629,7 +643,7 @@
 <body>
 
   <div class="top-bar">
-    خدمة دعم الصيانة المنزلية <span>24 ساعة يومياً</span> بمدينة نصر وعمارات ميلسا | قطع غيار أصلية بضمان المركز
+    خدمة دعم الصيانة المنزلية <span>24 ساعة يومياً</span> بمدينة نصر ومحافظة القاهرة | قطع غيار أصلية بضمان المركز
   </div>
 
   <header>
@@ -646,7 +660,7 @@
     <div class="hero-badges">
       <span class="badge">🛡️ ضمان صيانة المركز</span>
       <span class="badge">⚡ إصلاح منزلي فوري</span>
-      <span class="badge">📍 عمارات ميلسا - مدينة نصر</span>
+      <span class="badge">📍 تغطية كاملة لمدينة نصر</span>
     </div>
     <h1>Unionaire center - مركز صيانة يونيون اير</h1>
     <p>المركز المتخصص لإصلاح وصيانة أجهزة يونيون اير المنزلية (غسالات، ثلاجات، تكييفات، بوتاجازات، ديب فريزر، وميكروويف) بأعلى معايير الجودة وقطع الغيار الأصلية داخل نطاق مدينة نصر ومحافظة القاهرة.</p>
@@ -746,10 +760,10 @@
 
     </div>
 
-    <!-- Booking Form Section -->
+    <!-- Booking Form Section (High Contrast Standout) -->
     <section class="form-wrapper" id="booking-section">
       <div class="section-title" style="margin-bottom: 1.5rem;">
-        <span class="form-header-badge">⚡ استجابة فورية خلال دقائق</span>
+        <span class="form-header-badge">⚡ استجابة سريعة خلال دقائق</span>
         <h2>تسجيل بلاغ صيانة منزلية فورية</h2>
         <p>سجل بياناتك وسيصل إخطار فوري لمشرف الصيانة للتواصل وتحديد موعد الزيارة المنزلية</p>
       </div>
@@ -795,11 +809,11 @@
 
         <div class="form-group full-width">
           <label for="client_address">📍 العنوان بالتفصيل داخل مدينة نصر أو القاهرة *</label>
-          <input type="text" id="client_address" name="العنوان بالتفصيل" placeholder="مثال: عمارات ميلسا، بالقرب من شارع الطيران، مدينة نصر..." required>
+          <input type="text" id="client_address" name="العنوان بالتفصيل" placeholder="مثال: شارع الطيران، الحي السابع، عباس العقاد، مدينة نصر..." required>
         </div>
 
         <div class="form-group full-width">
-          <label for="problem_details">📝 وصف المشكلة أو كود العطل *</label>
+          <label for="problem_details">📝 وصف المشكلة أو مظهر العطل *</label>
           <textarea id="problem_details" name="تفاصيل ومظهر العطل" rows="3" placeholder="وضح المشكلة (مثال: الغسالة مش بتطرد المياه، التكييف بيجيب هواء دافئ، الثلاجة بتنقط مياه...)" required></textarea>
         </div>
 
@@ -841,7 +855,7 @@
     <!-- Location, Embed Map & Authority NAP Block -->
     <div class="section-title">
       <h2>مقر الخدمة وتغطية النطاق الجغرافي</h2>
-      <p>بيانات التواجد والارتباط الجغرافي المباشر في مدينة نصر</p>
+      <p>بيانات التواجد والارتباط الجغرافي المباشر لخدمة مدينة نصر ومحيطها</p>
     </div>
 
     <div class="map-nap-container">
@@ -849,11 +863,11 @@
       <!-- NAP Info Card -->
       <section class="nap-card">
         <div class="nap-info">
-          <span class="verified-chip">📍 نطاق الخدمة الجغرافي - عمارات ميلسا</span>
+          <span class="verified-chip">📍 نطاق الخدمة الجغرافي - مدينة نصر</span>
           <h3>Unionaire center - مركز صيانة يونيون اير</h3>
           <ul class="nap-details">
-            <li><strong>الرمز البريدي والجغرافي (Plus Code):</strong> 38GW+6J8, Omarat Milsa</li>
-            <li><strong>نطاق الخدمة:</strong> عمارات ميلسا، الحي السابع، شارع الطيران، عباس العقاد، ومكرم عبيد، مدينة نصر، القاهرة</li>
+            <li><strong>الرمز البريدي والجغرافي (Plus Code):</strong> 38GW+6J8, Nasr City</li>
+            <li><strong>نطاق التغطية:</strong> الحي السابع، الحي الثامن، شارع الطيران، عباس العقاد، مكرم عبيد، ومحيط مدينة نصر والقاهرة</li>
             <li><strong>رقم الهاتف المباشر:</strong> <a href="tel:01130154926" style="color: var(--primary); text-decoration: none; font-weight: bold;">01130154926</a></li>
             <li><strong>البريد الإلكتروني للدعم:</strong> <a href="mailto:ed3mnyit@gmail.com" style="color: var(--primary); text-decoration: none;">ed3mnyit@gmail.com</a></li>
             <li><strong>ساعات العمل والاستقبال:</strong> مفتوح طوال أيام الأسبوع 24 ساعة</li>
@@ -907,24 +921,18 @@
 
   </main>
 
-  <!-- Sticky Floating CTAs (Call & WhatsApp) -->
-  <div class="floating-actions">
-    <a href="https://wa.me/201130154926?text=مرحباً،%20أريد%20تسجيل%20بلاغ%20صيانة%20لجهاز%20يونيون%20اير" target="_blank" class="floating-cta">
-      <span>💬</span>
-      <span>واتساب الصيانة</span>
-    </a>
-    <a href="tel:01130154926" class="floating-cta call-btn">
-      <span>📞</span>
-      <span>01130154926</span>
-    </a>
-  </div>
+  <!-- Sticky Floating Single Call CTA -->
+  <a href="tel:01130154926" class="floating-cta">
+    <span>📞</span>
+    <span>اتصل بالصيانة الآن</span>
+  </a>
 
   <footer>
     <p>جميع الحقوق محفوظة © 2026 | <strong>Unionaire center - مركز صيانة يونيون اير</strong></p>
-    <p style="margin-top: 0.5rem; font-size: 0.85rem;">عمارات ميلسا - مدينة نصر - القاهرة | خدمة صيانة منزلية متخصصة</p>
+    <p style="margin-top: 0.5rem; font-size: 0.85rem;">مدينة نصر - القاهرة | خدمة صيانة منزلية متخصصة</p>
     
     <div class="disclaimer-box">
-      <strong>إخلاء مسؤولية قانوني:</strong> هذا الموقع يتبع مركز خدمة وإصلاح فني مستقل متخصص في أعمال الصيانة المنزلية للأجهزة الكهربائية، وجميع العلامات التجارية وأسماء الموديلات المذكورة هي ملك لأصحابها التجاريين وتُذكر هنا فقط لغرض توضيح توافق الخدمة الفنية المقدمة.
+      <strong>إخلاء مسؤولية:</strong> هذا الموقع يتبع مركز خدمة وإصلاح فني مستقل متخصص في أعمال الصيانة المنزلية للأجهزة الكهربائية، وجميع العلامات التجارية وأسماء الموديلات المذكورة هي ملك لأصحابها التجاريين وتُذكر هنا فقط لغرض توضيح توافق الخدمة الفنية المقدمة.
     </div>
   </footer>
 
